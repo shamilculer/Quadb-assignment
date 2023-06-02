@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --color-black : #040303;
+    --color-white : #fff;
+    --color-body : #541212;
+    --color-grey : #d3cdcd;
+    --color-overlay: #d3cdcd6b;
+    --color-gradient: linear-gradient(
+      135deg,
+      hsl(0deg 100% 38%) 0%,
+      hsl(357deg 100% 35%) 20%,
+      hsl(355deg 100% 31%) 31%,
+      hsl(353deg 100% 28%) 39%,
+      hsl(352deg 96% 25%) 44%,
+      hsl(352deg 91% 22%) 48%,
+      hsl(352deg 84% 20%) 53%,
+      hsl(353deg 78% 17%) 60%,
+      hsl(355deg 71% 14%) 71%,
+      hsl(0deg 66% 10%) 100%
+    );
+}   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+  color: var(--color-white);
+  overflow-x: hidden;
+}
+main{
+  min-height: 100vh;
+  padding-inline: 6rem;
+}
+img{
+  width: 100%;
+}

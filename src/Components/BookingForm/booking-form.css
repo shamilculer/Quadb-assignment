@@ -1,0 +1,22 @@
+.booking-form{
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    padding: 5rem;
+    background-color: var(--color-white);
+    z-index: 10
+}
+.booking-form form{
+    color: black;
+}
+.booking-form form input{
+    background-color: var(--color-grey);
+    padding: .5rem 2rem;
+    border: 1px solid black;
+}
+.close-btn{
+    position: relative;
+    top: -69px;
+    right: -300px;
+    color: black;
+}
